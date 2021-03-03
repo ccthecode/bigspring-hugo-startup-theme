@@ -1,0 +1,113 @@
+baseURL = "/"
+disqusShortname = ""
+googleAnalytics = ""
+paginate = "3"
+summaryLength = "15"
+#theme = "bigspring"
+title = "Bigspring Hugo"
+[languages.de]
+contentDir = "content/deutsch"
+copyright = "Design von [Themefisher](https://themefisher.com/) Entwickelt von [Gethugothemes](https://gethugothemes.com/)"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_menu_left = "Firma"
+footer_menu_middle = "Produkte"
+footer_menu_right = "Support"
+languageName = "De"
+title = "Bigspring Hugo"
+weight = 2
+[languages.en]
+contentDir = "content/english"
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_menu_left = "Company"
+footer_menu_middle = "Product"
+footer_menu_right = "Support"
+languageName = "En"
+title = "Bigspring Hugo"
+weight = 1
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.footer_left]]
+name = "About Us"
+url = "#"
+[[menu.footer_left]]
+name = "Quick Start"
+url = "#"
+[[menu.footer_left]]
+name = "Pricing"
+url = "pricing"
+[[menu.footer_middle]]
+name = "Pricing"
+url = "pricing"
+[[menu.footer_middle]]
+name = "Platform"
+url = "#"
+[[menu.footer_middle]]
+name = "Features"
+url = "#"
+[[menu.footer_right]]
+name = "Privacy Policy"
+url = "privacy-policy"
+[[menu.footer_right]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+[[menu.footer_right]]
+name = "FAQ"
+url = "faq"
+[[menu.main]]
+name = "Blog"
+url = "blog"
+weight = 1
+[[menu.main]]
+name = "Pricing"
+url = "pricing"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 3
+[[menu.main]]
+name = "FAQ"
+url = "faq"
+weight = 4
+[params]
+author = "Themefisher"
+contact_form_action = "#"
+description = "This is meta description"
+logo = "images/logo.png"
+logo_width = "200px"
+[params.navigation_button]
+enable = true
+label = "Get Started"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+title = "twitter"
+[[params.social]]
+icon = "ti-skype"
+link = "#"
+title = "skype"
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+title = "linkedin"
